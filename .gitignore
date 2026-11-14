@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+~$*.docx
+
+# 群下载副本：与本地原件逐字节相同，只保留一份
+*_群最新版.*
+
+# 中间产物 / 备份 / 临时
+_tmp/
+*.bak
+run_teacher.log
+_peek.py

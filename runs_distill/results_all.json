@@ -1,0 +1,24 @@
+{
+  "teacher": {
+    "params_M": 0.737,
+    "val_loss": 0.8614,
+    "ppl": 2.37
+  },
+  "student_params_M": 0.147,
+  "scratch": {
+    "val_loss": 0.8984,
+    "ppl": 2.46,
+    "agree": NaN,
+    "sec": 9.8
+  },
+  "kd": {
+    "val_loss": 1.0051,
+    "ppl": 2.73,
+    "agree": 0.873,
+    "sec": 16.9,
+    "T": 4.0,
+    "alpha": 0.5
+  },
+  "rel_gain_pct": -11.9,
+  "iters": 350
+}
